@@ -1,0 +1,9 @@
+<h2>Login </h2>
+<div class="col-md-8 col-md-offset-2"> 
+ <div class="form-group">
+    <input type="text" [(ngModel)]="id_username" class="form-control" placeholder="Enter Username ..."><br>
+    <input type="password" [(ngModel)]="id_password" class="form-control" placeholder="Enter Password ..."><br>
+    <button type="button" class="btn btn-primary" (click)="callLoginCheck()">Submit</button>
+    <p>{{this.loginValue}}</p>
+  </div>
+</div>

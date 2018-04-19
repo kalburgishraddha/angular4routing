@@ -9,6 +9,7 @@ import { WeatherComponent } from './weather/weather.component';
 import { CurrencyComponent } from './currency/currency.component';
 import { CONST_ROUTING } from './app.routing';
 import  { SharedService } from './shared.service';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import  { SharedService } from './shared.service';
     AppComponent,
     MenuComponent,
     WeatherComponent,
-    CurrencyComponent
+    CurrencyComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
